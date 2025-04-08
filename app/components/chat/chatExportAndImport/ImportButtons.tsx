@@ -67,7 +67,7 @@ export function ImportButtons(importChat: ((description: string, messages: Messa
             variant="outline"
             size="lg"
             className={classNames(
-              'gap-2 bg-[#F5F5F5] dark:bg-[#252525]',
+              'gap-2 bg-gradient-to-r from-[#EB2EA5] via-[#EB2B66] to-[#F68F22]',
               'text-bolt-elements-textPrimary dark:text-white',
               'hover:bg-[#E5E5E5] dark:hover:bg-[#333333]',
               'border-[#E5E5E5] dark:border-[#333333]',
