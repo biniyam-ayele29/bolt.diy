@@ -17,13 +17,14 @@ export function Header() {
     >
       <div className="flex items-center gap-2 z-logo text-bolt-elements-textPrimary cursor-pointer">
         <div className="i-ph:sidebar-simple-duotone text-xl" />
-
+        
         <div className="flex justify-center items-center w-full">
           <a href="/">
-            <img src="/gebeya-logo.png" alt="logo" className="w-[40px] p-1 inline-block dark:hidden" />
-            <img src="/gebeya-logo.png" alt="logo" className="w-[40px] p-1 inline-block hidden dark:block" />
+          <img src="/gebeya-logo.png" alt="logo" className="w-[40px] p-1 inline-block dark:hidden" />
+          <img src="/gebeya-logo.png" alt="logo" className="w-[40px] p-1 inline-block hidden dark:block" />
           </a>
         </div>
+        
       </div>
       {chat.started && ( // Display ChatDescription and HeaderActionButtons only when the chat has started.
         <>
